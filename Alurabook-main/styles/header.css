@@ -6,23 +6,25 @@
     background-position: center;
     display: inline-block;
     color: red;
- }
+}
 
- .cabecalho {
-    background-color var(--branco);
+
+.cabecalho {
+    background-color: var(--branco);
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: relative;
- }
+}
 
- .lista__menu {
+.lista__menu {
     display: none;
     position: absolute;
     z-index: 2;
     top: 100%;
-    width: 60vw
- }
+    width: 60vw;
+}
+
 
 
 
@@ -30,4 +32,16 @@
     display: block;
 }
 
-.lista-menu
+.lista-menu__titulo, .lista-menu__item {
+    padding: 1em;
+    background-color: var(--branco);
+}
+
+.lista-menu__titulo {
+    color: var(--laranja);
+    font-weight: 700;
+}
+
+.lista-menu__item {
+    text-transform: uppercase;
+}
